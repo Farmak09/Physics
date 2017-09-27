@@ -46,6 +46,7 @@ bool ModulePhysics::Start()
 
 	b2FixtureDef groundFixture;
 	groundFixture.shape = &groundShape;
+	groundFixture.friction = 0.1f;
 
 	groundBody->CreateFixture(&groundFixture);
 	// TODO 4: Create a big static circle as "ground"
@@ -71,7 +72,7 @@ update_status ModulePhysics::PostUpdate()
 	{
 
 		b2BodyDef BodyDef;
-		BodyDef.position.Set(PIXEL_TO_METERS(SCREEN_WIDTH / 2 - 1), PIXEL_TO_METERS(0));
+		BodyDef.position.Set(PIXEL_TO_METERS(SCREEN_WIDTH / 2 - 1), PIXEL_TO_METERS(-50));
 		BodyDef.type = b2_dynamicBody;
 
 		b2Body* Body = warudo->CreateBody(&BodyDef);
@@ -81,7 +82,7 @@ update_status ModulePhysics::PostUpdate()
 
 		b2FixtureDef Fixture;
 		Fixture.shape = &Shape;
-
+		Fixture.friction = 0.1f;
 		Body->CreateFixture(&Fixture);
 	}
 

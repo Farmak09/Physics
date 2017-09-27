@@ -1,4 +1,4 @@
 ﻿  ModulePhysics.cpp
-c:\program files (x86)\microsoft visual studio 14.0\vc\include\cmath(131): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc
-  SDL Game.vcxproj -> C:\Users\farma\Documents\Visual Studio 2015\Projects\Vec3\Physics\Debug\Physics 2 Class 1 Handout.exe
-  SDL Game.vcxproj -> C:\Users\farma\Documents\Visual Studio 2015\Projects\Vec3\Physics\Debug\Physics 2 Class 1 Handout.pdb (Full PDB)
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\cmath(113): warning C4577: si se usa 'noexcept' sin ningún modo de control de excepciones especificado, la finalización de la excepción no está garantizada. Especifique /EHsc
+  SDL Game.vcxproj -> C:\Users\jaumesv1\Desktop\Physics2_class1_handout\Physics\Debug\Physics 2 Class 1 Handout.exe
+  SDL Game.vcxproj -> C:\Users\jaumesv1\Desktop\Physics2_class1_handout\Physics\Debug\Physics 2 Class 1 Handout.pdb (Partial PDB)
